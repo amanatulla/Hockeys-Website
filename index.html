@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Brust</title>
+
+    <!-- Tailwind & DaisyUI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Font Manrope -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Link -->
+    <script src="https://kit.fontawesome.com/92da5468d1.js" crossorigin="anonymous"></script>
+
+    <!-- Customizing Your Config -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        'pri-color': '#ff4240',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Font Style -->
+    <Style>
+        .font-manrope {
+            font-family: 'Manrope', sans-serif;
+        }
+    </Style>
+
+    <script src="https://kit.fontawesome.com/92da5468d1.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body class="font-manrope">
+
+    <header class="container mx-auto lg:px-24 px-5 my-8">
+
+        <!-- Navbar START -->
+        <nav>
+            <div class="navbar p-0">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost pl-0 lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            <li><a>Home</a></li>
+                            <li><a>About</a></li>
+                            <li><a>Pages</a></li>
+                            <li><a>Blog</a></li>
+                            <li><a>Contact</a></li>
+                            <li><a><img class="w-3/4" src="Images/Frame.png"
+                                alt=""></a></li>
+                        </ul>
+                    </div>
+                    <a class="text-4xl font-extrabold">Hockey<span class="text-pri-color ">’</span>s</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a class="text-base font-bold text-pri-color">Home</a></li>
+                        <li><a class="text-base text-dark-02">About</a></li>
+                        <li><a class="text-base text-dark-02">Pages</a></li>
+                        <li><a class="text-base text-dark-02">Blog</a></li>
+                        <li><a class="text-base text-dark-02">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <div>
+                        <a class="btn bg-transparent border-none shadow-none hidden lg:flex"><img src="Images/Frame.png"
+                                alt=""></a>
+                    </div>
+                    <div class="">
+                        <a class="btn bg-pri-color text-white text-xl font-bold">Get Ticket</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar END -->
+
+        <!-- Banner START -->
+        <div class="relative overflow-hidden mt-6 lg:mt-12">
+            <div class="carousel w-full">
+                <div id="slide1" class="carousel-item relative w-full">
+                    <img src="Images/1.png" class="w-full h-full rounded-2xl" />
+                    <div class="absolute flex justify-center gap-4 -translate-y-1/2 -translate-x-1/2 bottom-0 
+                    left-[50%] lg:left-[90px]">
+                        <a href="#slide4" class="btn btn-circle border-none bg-[#131318] text-white">❮</a>
+                        <a href="#slide2" class="btn btn-circle border-none bg-[#131318] text-white">❯</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="bg-[#131318] rounded-2xl p-8 lg:w-[43vw] lg:absolute lg:bottom-8 lg:right-8">
+                <h3 class="text-[18px] lg:text-2xl font-extrabold text-white pb-2 lg:pb-4">Meet all the heroes from the
+                    field</h3>
+                <p class="text-[#fff] opacity-60 font-medium lg:text-base text-xs">Dit amet consectetur. Condimentum
+                    dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.</p>
+
+            </div>
+        </div>
+
+
+    </header>
+
+    <main>
+
+    </main>
+
+    <footer>
+
+
+    </footer>
+
+</body>
+
+</html>
