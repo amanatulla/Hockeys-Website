@@ -29,6 +29,7 @@
                         'pri-color': '#ff4240',
                         'p-color': '#13131899',
                         'h-color': '#131318',
+                        'fo-color': '#ffffff99',
                     }
                 }
             }
@@ -583,8 +584,7 @@
             <div class="flex flex-col lg:flex-row gap-6">
 
                 <!-- Phone Number, Email, Location -->
-                <div
-                    class="mt-6 lg-mt-12 grid gap-6 border-2 border-solid border-[#1313181a] rounded-2xl p-6 lg:p-12">
+                <div class="mt-6 lg-mt-12 grid gap-6 border-2 border-solid border-[#1313181a] rounded-2xl p-6 lg:p-12">
                     <!--Phone Number  -->
                     <div class="bg-[#bced6d1a] rounded-2xl w-[374px] h-[216px] p-8 space-y-1">
                         <img class="mb-6" src="Images/Group 1171275317.png" alt="">
@@ -620,7 +620,8 @@
                         <div class="label">
                             <span class="text-xl font-bold text-h-color">Your Name</span>
                         </div>
-                        <input type="text" placeholder="Enter your full name" class="input input-bordered w-full w-2xl rounded-xl" />
+                        <input type="text" placeholder="Enter your full name"
+                            class="input input-bordered w-full w-2xl rounded-xl" />
                     </label>
 
                     <!-- Your Email -->
@@ -628,7 +629,8 @@
                         <div class="label">
                             <span class="text-xl font-bold text-h-color">Your Email</span>
                         </div>
-                        <input type="text" placeholder="Enter your email" class="input input-bordered w-full w-2xl rounded-xl" />
+                        <input type="text" placeholder="Enter your email"
+                            class="input input-bordered w-full w-2xl rounded-xl" />
                     </label>
 
                     <!-- Subject -->
@@ -657,7 +659,8 @@
                             <span class="text-xl font-bold text-h-color">Message</span>
                         </div>
 
-                        <textarea id="product-details"  placeholder="Write your message" class="input input-bordered block w-full h-full pt-4 rounded-xl"></textarea>
+                        <textarea id="product-details" placeholder="Write your message"
+                            class="input input-bordered block w-full h-full pt-4 rounded-xl"></textarea>
 
 
 
@@ -681,22 +684,69 @@
         <Section class="mt-10 lg:mt-24">
 
             <div class="bg-[rgba(19,19,24,0.03)] rounded-xl h-[150px] grid justify-center">
-            <h3 class="text-h-color text-center text-2xl font-extrabold pt-6">Social Media</h3>
+                <h3 class="text-h-color text-center text-2xl font-extrabold pt-6">Social Media</h3>
 
-            <div class="flex justify-center gap-10">
-                <a class="text-xl" href="#"><i class="fa-brands fa-twitter"></i></a>
-                <a class="text-xl" href="#"><i class="fa-brands fa-instagram"></i></a>
-                <a class="text-xl" href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                <a class="text-xl" href="#"><i class="fa-brands fa-github"></i></a>
+                <div class="flex justify-center gap-10">
+                    <a class="text-xl" href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a class="text-xl" href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a class="text-xl" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a class="text-xl" href="#"><i class="fa-brands fa-github"></i></a>
+                </div>
             </div>
-        </div>
 
         </Section>
         <!-- Social Media END -->
 
     </main>
 
-    <footer>
+    <footer class="bg-[#131318] mt-10 lg:mt-24">
+
+        <div class="container mx-auto lg:px-24 px-5 ">
+            <div class="grid grid-cols-2 lg:grid-cols-5 justify-between pt-10 pb-10 lg:pt-25 lg:pb-25 gap-10">
+
+                <!-- Get In Touch -->
+                <div class="grid col-span-2 text-center lg:text-left">
+                    <h3 class="text-white text-[28px] font-extrabold mb-4">Get In Touch</h3>
+                    <p class="text-fo-color font-medium mb-4 lg:mb-6">Dit amet consectetur. Condimentum <br> adipiscing aliquam
+                        turpis placerat dolor. Purus <br> urna in sit nullam proin. </p>
+                    <h4 class="text-fo-color font-medium mb-4"><i
+                            class="fa-solid fa-envelope text-[#FF4240] pr-2"></i>hockeys@support.com</h4>
+                    <h4 class="text-fo-color font-medium"><i class="fa-solid fa-phone text-[#FF4240] pr-2"></i>(+62)
+                        123-321-543</h4>
+                </div>
+
+                <!-- About us -->
+                <div class="grid col-span-1 text-center lg:text-left">
+                    <h3 class="text-white text-lg font-bold mb-6 lg:mb-7">Company</h3>
+                    <a class="link link-hover text-fo-color font-medium">About us</a>
+                    <a class="link link-hover text-fo-color font-medium">Leadership</a>
+                    <a class="link link-hover text-fo-color font-medium">Careers</a>
+                    <a class="link link-hover text-fo-color font-medium">News &amp; Article</a>
+                    <a class="link link-hover text-fo-color font-medium">Legal Notice</a>
+                </div>
+
+                <!-- Support -->
+                <div class="grid col-span-1 text-center lg:text-left ">
+                    <h3 class="text-white text-lg font-bold mb-6 lg:mb-7">Support</h3>
+                    <a class="link link-hover text-fo-color font-medium">Help Center</a>
+                    <a class="link link-hover text-fo-color font-medium">FAQ</a>
+                    <a class="link link-hover text-fo-color font-medium">Ticket Support</a>
+                    <a class="link link-hover text-fo-color font-medium">Contact US</a>
+                </div>
+
+                <!-- Services -->
+                <div class="grid col-span-2 lg:col-span-1 text-center lg:text-left">
+                    <h3 class="text-white text-lg font-bold mb-6 lg:mb-7 ">Services</h3>
+                    <a class="link link-hover text-fo-color font-medium">Academy</a>
+                    <a class="link link-hover text-fo-color font-medium">Group Lesson</a>
+                    <a class="link link-hover text-fo-color font-medium">Private Lesson</a>
+                    <a class="link link-hover text-fo-color font-medium">Hockeys for kids</a>
+                    <a class="link link-hover text-fo-color font-medium">Hockeys for Adult</a>
+                </div>
+
+            </div>
+
+        </div>
 
 
     </footer>
